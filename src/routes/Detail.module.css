@@ -8,3 +8,10 @@
 .movie_img {
   width: 70%;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
