@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import styles from "./Detail.module.css";
 
 function Detail() {
   const [loading, setLoading] = useState(true);
@@ -20,16 +21,15 @@ function Detail() {
       {loading ? (
         <h1>Loading...</h1>
       ) : (
-        <div>
+        <div className={styles.movie_info}>
           <img
-            width="230"
-            height="340"
+            className={styles.movie_img}
             src={movieInfos.background_image}
             alt="img"
           />
           <h1>{movieInfos.title}</h1>
           {movieInfos.genres.map((genres) => (
-            <li key={genres}>{genres}</li>
+            <span key={genres}>{genres}</span>
           ))}
         </div>
       )}

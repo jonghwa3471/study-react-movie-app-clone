@@ -1,0 +1,45 @@
+.movie {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-decoration: none;
+  background-color: white;
+  column-gap: 30px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+.movie_img {
+  grid-row: span 3;
+  position: relative;
+  top: -70px;
+  width: 90%;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.movie_title {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.movie_title a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.movie_year {
+  margin-top: -15px;
+}
+
+.movie_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movie_genre_container {
+  display: flex;
+  gap: 5px;
+}

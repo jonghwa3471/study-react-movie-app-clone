@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px 50px;
+}
+
+.root_container {
+  padding: 70px 140px;
+  background-color: #eff3f5;
+}

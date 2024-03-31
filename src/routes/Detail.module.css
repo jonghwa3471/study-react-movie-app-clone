@@ -1,0 +1,10 @@
+.movie_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie_img {
+  width: 70%;
+}
