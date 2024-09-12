@@ -1,8 +1,10 @@
 # Movie-App Clone
 
 ## 🔗 Demo
+https://jonghwa3471.github.io/study-react-movie-app-clone/
 
 ## 🖥 Preview
+<
 
 ## 🔥 Stack
 
