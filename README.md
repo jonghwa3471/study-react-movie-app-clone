@@ -1,10 +1,11 @@
 # Movie-App Clone
+Study Basic ReactJS
 
 ## 🔗 Demo
 https://jonghwa3471.github.io/study-react-movie-app-clone/
 
 ## 🖥 Preview
-<
+<img src="preview-movie-app.png"/>
 
 ## 🔥 Stack
 
@@ -23,7 +24,7 @@ https://jonghwa3471.github.io/study-react-movie-app-clone/
 - [x] fetch
 - [x] useState
 - [x] useEffect
-- [x] Link
+- [x] Link Tag
 - [x] blabla.module.css
 
 ## 📱 View
